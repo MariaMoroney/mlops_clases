@@ -14,6 +14,12 @@ def login(username,password: str) -> str
 
     return "Login Failed"
 
+
+
+def resta(a: int, b: int) -> int:
+    return a - b
+
+
 if __name__ == '__main__':
     print(suma( a= 2, b= 3))
     print(login("admin"))
